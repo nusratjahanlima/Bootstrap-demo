@@ -1,0 +1,37 @@
+
+.abc{
+    margin: 300px;
+    border: 2px solid black;
+}
+
+.nav-section{
+   margin: 0 auto;
+}
+
+.nav-section a{
+    text-decoration: none;  
+    margin-left: 40px;
+}
+.c-image{
+    height: 600px;
+}
+
+@media only screen and (max-width: 600px){
+    .nav-section{
+        display: none;
+    }
+
+    .dropdoen-dd{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1600px) {
+    .nav-section {
+        display: block;
+    }
+    
+    .dropdoen-dd{
+        display: block;
+    }
+}
